@@ -1,0 +1,137 @@
+/* body */
+body {
+    background-color:black;
+    margin: 0;
+}
+
+/* 標題1*/
+h1 {
+    font-size: 3em;
+    color:seagreen;
+    text-align: center;
+}
+
+/* 選單 */
+.navigation ul {
+    background-color:darkslategray;
+    margin: 0;
+    padding: 4px;
+    text-align: center;
+}
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 8px;
+}
+.navigation ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.navigation ul li a:hover {
+    color:#FFFFFF;
+    text-decoration: underline;
+}
+
+/* 主視覺 */
+.mainvisual {
+    background-color:#FFFFFF;
+    border-bottom: solid 3px #ffffff;
+}
+.mainvisual img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* article */
+article {
+    padding: 32px 16px;
+}
+
+/* 背景色・文字色 */
+#profile {
+    background-color:seagreen;}
+
+/* 邊界設定 */
+#profile .inner {
+    max-width: 900px;
+    margin: 0 auto;color:honeydew
+}
+
+#concert {
+    max-width: 900px;
+    margin: 0 auto;color:honeydew;
+font-family:"標楷體";
+ list-style-type: upper;
+}
+
+
+/* section */
+section {
+    margin: 48px 0;color:honeydew
+}
+
+
+/* 標題23 */
+h2 {
+    text-align: center;
+ color:seagreen
+}
+
+h3 {
+    border-left: solid 6px darkgreen; 
+    padding-left: 6px;
+}
+
+/* 表 */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border: solid 1px #999999;
+    padding: 20px; 
+}
+th {
+    background-color:darkslategray; width: 20%
+}
+
+/* 作品集 */
+.performer {
+    margin: 0 0 24px;
+    overflow: hidden;
+color:darkgreen
+}
+.performer img {
+    float: left;
+    margin: 0 16px 0 0;
+}
+.performer h4 {
+    margin: 0 0 0.5em;
+}
+.performer p {
+    margin: 0;
+}
+
+
+/* 回頁首 */
+.pagetop {
+    text-align: right;
+}
+
+/* 著作權 */
+.copyright {
+    border-top: solid 3px #fffffff;
+    text-align: center; color:honeydew
+}
+
+
+/* 著作 */
+ol li {
+font-family:"標楷體";
+ list-style-type: upper;
+}
+
+
+
